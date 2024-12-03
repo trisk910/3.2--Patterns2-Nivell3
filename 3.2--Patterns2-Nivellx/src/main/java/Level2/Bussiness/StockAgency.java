@@ -11,6 +11,6 @@ public class StockAgency implements Observer {
 
     @Override
     public void update(float stockValue) {
-        System.out.println("Agency " + name + " notified. New stock value: " + stockValue);
+        System.out.println("Agency " + name + " observed. New value: " + stockValue);
     }
 }
